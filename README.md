@@ -1,0 +1,1 @@
+# Personal Manjaro Sway Configurations
