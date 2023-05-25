@@ -1,0 +1,21 @@
+profile on-the-go-2M {
+	output eDP-1 mode 1920x1080 position 1920,0
+	output DP-1 mode 1920x1080 position 0,0
+}
+
+profile Servinkuja1B-HDMI-A-1 {
+	output eDP-1 mode 1920x1080 position 0,1080
+	output HDMI-A-1 mode 1920x1080 position 0,0
+}
+
+profile Servinkuja1B-DS-HDMI {
+	output eDP-1 mode 1920x1080 position 0,1080
+	output DP-5 mode 1920x1080 position 0,0
+}
+
+# Setup using all the native video outputs of the TinkPad T490: HDMI-A-1 and DP-1
+profile Servinkuja1B-HDMI-A-1-and-DP-1 {
+	output eDP-1 mode 1920x1080 position 0,1080
+	output HDMI-A-1 mode 1920x1080 position 0,0
+	output DP-1 mode 1920x1080 position 1920,1080
+}
