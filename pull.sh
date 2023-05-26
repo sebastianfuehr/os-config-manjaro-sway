@@ -4,6 +4,9 @@
 # albert
 cp ~/.config/albert.conf ./.config/albert.conf
 
+# ranger
+cp ~/.config/ranger/rifle.conf ./.config/ranger/rifle.conf
+
 # kanshi
 cp ~/.config/kanshi/config ./.config/kanshi/config
 
